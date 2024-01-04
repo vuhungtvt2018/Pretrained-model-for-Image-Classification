@@ -3,7 +3,7 @@
    Model đánh giá và test trên tập dữ liệu thực tế
 ## Install
    ```
-   git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone \
+   git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
    cd pretrain_classification \
    pip install -r requirements.txt  # install \
    mkdir model  # thư mục chứa file weight sau khi training \
