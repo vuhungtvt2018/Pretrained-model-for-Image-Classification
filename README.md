@@ -1,4 +1,5 @@
 # Pretrain Classification with limited Dataset (with Tensorflow)
+## Đã được sử dụng cho model OCV, nhận diện các kí tự và kiểm tra độ mờ, độ mất nét của kí tự trên sản phẩm thực tế
    - Image Classification sẽ được pretrain trên tập dữ liệu augmentation (được augment từ tập dữ liệu thực tế) mà không train trên tập dữ liệu thực. 
    - Model được đánh giá và test trên tập dữ liệu thực tế.
    - Custom RandomCutout layer.
@@ -7,7 +8,7 @@
    - Convert model sang onnx.
    - Sử dụng chiến lược training từ top layer về bottom layer.
    - Trích xuất được các embedding vector. Dùng cho việc tính similarity distance.
-## Đã được sử dụng cho model OCV, nhận diện các kí tự và kiểm tra độ mờ, độ mất nét của kí tự trên sản phẩm thực tế
+
 ## Install
    ```
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
