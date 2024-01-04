@@ -4,9 +4,9 @@
 ## Install
    ```
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
-   cd pretrain_classification \
-   pip install -r requirements.txt  # install \
-   mkdir model  # thư mục chứa file weight sau khi training \
+   cd pretrain_classification 
+   pip install -r requirements.txt  # install 
+   mkdir model  # thư mục chứa file weight sau khi training 
    mkdir predict # thư mục chứa ảnh test cho việc predict (Ảnh trong thư mục dataset sau khi pre_processing sẽ di chuyển vào đây)
    ```
 ## Dataset
