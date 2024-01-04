@@ -15,7 +15,7 @@
    keras<=2.9.0 \
    augmentor<=0.2.12
 ## Dataset
-   Số lượng ảnh của mỗi class: 20 ảnh
+   Số lượng ảnh của mỗi class: tối thiểu 10 ảnh
 ## Pre-trained models
    Sử dụng pretrain Resnet50v2. Có thể thay thế các pretrain khác mà keras cung cấp
 ## Training
