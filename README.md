@@ -17,7 +17,8 @@
 ## Dataset
    Số lượng ảnh của mỗi class: tối thiểu 10 ảnh
 ## Pre-trained models
-   Sử dụng pretrain Resnet50v2. Có thể thay thế các pretrain khác mà keras cung cấp
+   Sử dụng pretrain Resnet50v2. \
+   Có thể thay thế các pretrain khác mà tensorflow cung cấp.
 ## Training
    Thời gian training 40 phút
    ```
