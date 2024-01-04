@@ -7,6 +7,7 @@
    - Convert model sang onnx.
    - Sử dụng chiến lược training từ top layer về bottom layer.
    - Trích xuất được các embedding vector. Dùng cho việc tính similarity distance.
+## Đã được sử dụng cho model OCV, nhận diện các kí tự và kiểm tra độ mờ, độ mất nét của kí tự trên sản phẩm thực tế
 ## Install
    ```
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
