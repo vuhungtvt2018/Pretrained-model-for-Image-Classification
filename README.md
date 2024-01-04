@@ -1,6 +1,6 @@
 # Pretrain Classification with limited Dataset (with Tensorflow)
-   Image Classification sẽ được pretrain trên tập dữ liệu augmentation (được augment từ tập dữ liệu thực tế) mà không train trên tập dữ liệu thực. \
-   Model được đánh giá và test trên tập dữ liệu thực tế. \
+   - Image Classification sẽ được pretrain trên tập dữ liệu augmentation (được augment từ tập dữ liệu thực tế) mà không train trên tập dữ liệu thực. \
+   - Model được đánh giá và test trên tập dữ liệu thực tế. \
    Custom RandomCutout layer. \
    Custom Dense layer. \
    Backbone: Resnet50v2. Có thể thay thế các backbone khác mà tensorflow cung cấp. \
