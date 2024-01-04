@@ -1,6 +1,8 @@
 # Pretrain Classification with limited Dataset (with Tensorflow)
    Image Classification sẽ được pretrain trên tập dữ liệu augmentation (được augment từ tập dữ liệu thực tế) mà không train trên tập dữ liệu thực. \
-   Model đánh giá và test trên tập dữ liệu thực tế
+   Model được đánh giá và test trên tập dữ liệu thực tế
+   Convert sang onnx
+   
 ## Install
    ```
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
