@@ -12,7 +12,7 @@
 ## Requirements 
    tensorflow<=2.9.3 \
    keras<=2.9.0 \
-   augmentor<=0.2.12\
+   augmentor<=0.2.12
    ```
    pip install -r requirements txt 
    ```
