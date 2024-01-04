@@ -9,6 +9,13 @@
    mkdir model  # thư mục chứa file weight sau khi training 
    mkdir predict # thư mục chứa ảnh test cho việc predict (Ảnh trong thư mục dataset sau khi pre_processing sẽ di chuyển vào đây)
    ```
+## Requirements 
+   tensorflow<=2.9.3 \
+   keras<=2.9.0 \
+   augmentor<=0.2.12\
+   ```
+   pip install -r requirements txt 
+   ```
 ## Dataset
    Số lượng ảnh của mỗi class: 20 ảnh
 ## Pre-trained models
