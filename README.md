@@ -14,7 +14,7 @@
    keras<=2.9.0 \
    augmentor<=0.2.12
    ```
-   pip install -r requirements txt 
+   pip install -r requirements.txt 
    ```
 ## Dataset
    Số lượng ảnh của mỗi class: 20 ảnh
