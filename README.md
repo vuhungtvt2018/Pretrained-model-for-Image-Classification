@@ -10,7 +10,7 @@
    mkdir predict # thư mục chứa ảnh test cho việc predict (Ảnh trong thư mục dataset sau khi pre_processing sẽ di chuyển vào đây)
    ```
 ## Requirements 
-   tensorflow<=2.9.3 \
+   tensorflow-gpu<=2.9.3 \
    keras<=2.9.0 \
    augmentor<=0.2.12
 ## Dataset
