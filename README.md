@@ -5,7 +5,8 @@
    - Custom Dense layer.
    - Backbone: Resnet50v2. Có thể thay thế các backbone khác mà tensorflow cung cấp.
    - Convert model sang onnx.
-   - Sử dụng chiến lược training từ top layer về bottom layer
+   - Sử dụng chiến lược training từ top layer về bottom layer.
+   - Trích xuất được các embedding vector. Dùng cho việc tính similarity distance.
 ## Install
    ```
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone 
