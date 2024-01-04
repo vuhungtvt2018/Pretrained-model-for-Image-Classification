@@ -3,8 +3,10 @@
    git clone https://github.com/vuhungtvt2018/pretrain_classification.git  # clone \
    cd pretrain_classification \
    pip install -r requirements.txt  # install
+   mkdir model  # thư mục chứa file weight sau khi training
+   mkdir predict # thư mục chứa ảnh test cho việc predict (Ảnh trong thư mục dataset sau khi pre_processing sẽ di chuyển vào đây)
 ## Dataset
-   Dataset với mỗi class chỉ cần khoảng 20 ảnh
+   Số lượng ảnh của mỗi class: 20 ảnh
 ## Pre-trained models
    Sử dụng pretrain Resnet50v2. Có thể thay thế các pretrain khác mà keras cung cấp
 ## Training
