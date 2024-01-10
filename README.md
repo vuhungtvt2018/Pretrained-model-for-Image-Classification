@@ -34,7 +34,7 @@
    --max_contrast 3 --min_brightness 1.5 --max_brightness 3 --max_shear_left 4 --max_shear_right 4 --imgs 220 --height_new_size 220 --width_new_size 200 --PATH classify/image 
    --batch_size 64 --epoch 20 --three_rd_training --name_model abc
    ```
-## Testing
+## Inference
    ```
    python predicted_classification.py --imgs 220 --height_new_size 220 --width_new_size 200 --model_name 1abc.h5
    ```
